@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Notehub.iml" filepath="$PROJECT_DIR$/Notehub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cs48Notehub.iml" filepath="$PROJECT_DIR$/.idea/modules/cs48Notehub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cs48Notehub_main.iml" filepath="$PROJECT_DIR$/.idea/modules/cs48Notehub_main.iml" group="cs48Notehub" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cs48Notehub_test.iml" filepath="$PROJECT_DIR$/.idea/modules/cs48Notehub_test.iml" group="cs48Notehub" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Website CSS style -->
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+
+	<!-- Website Font style -->
+	<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+	<!-- Google Fonts -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+
+
+	<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+	<title>Login</title>
+</head>
+<body>
+<div class="container">
+	<div class="row main">
+		<div class="panel-heading">
+			<div class="panel-title text-center">
+				<h1 class="title">NoteHub</h1>
+				<hr />
+			</div>
+		</div>
+		<div class="main-login main-center">
+			<form id=defaultForm class="form-horizontal" method="post" action="#">
+
+
+				<div class="form-group">
+					<label for="email" class="cols-sm-2 control-label">Your Email</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+							<input type="email" class="form-control" name="email" id="txtEmail"  placeholder="Enter your Email"/>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="password" class="cols-sm-2 control-label">Password</label>
+					<div class="cols-sm-10">
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+							<input type="password" class="form-control" name="password" id="txtPassword"  placeholder="Enter your Password"/>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="form-group ">
+					<button type="button" id="btnLogin" class="btn btn-primary btn-lg btn-block login-button">Login</button>
+				</div>
+
+				<!--button id = "btnLogout" style = "color:white">
+				</button-->
+
+				<center><a class="login-back" href=index.jsp>
+					Back
+				</a></center>
+			</form>
+
+		</div>
+
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
+<script src="js/loginPage.js"></script>
+</body>
+</html>
